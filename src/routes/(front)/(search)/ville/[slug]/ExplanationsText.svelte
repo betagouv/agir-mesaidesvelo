@@ -21,7 +21,7 @@
 	$: deVille = determinant($page.data.ville.nom) + $page.data.ville.nom;
 </script>
 
-<div class="prose mt-12">
+<div class="prose mt-12 max-w-full">
 	{#if infos.pays}
 		{@html infos.pays.text}
 	{:else}
